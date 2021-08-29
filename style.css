@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: skyblue;
+    background: crimson;
 }
 .navbar .max-width{
     display: flex;
@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: skyblue;
+    color: crimson;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -193,23 +193,23 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: skyblue;
+    color: crimson;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: skyblue;
+    background: crimson;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid skyblue;
+    border: 2px solid crimson;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: skyblue;
+    color: white;
     background: none;
 }
 
@@ -321,18 +321,18 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: crimson;
+    background: green;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid skyblue;
+    border: 2px solid green;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: skyblue;
+    color: green;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -360,7 +360,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: skyblue;
+    background: green;
 }
 .skills-content .right .html::before{
     width: 90%;
