@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Rishikesh Ombase</title>
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
@@ -14,86 +14,231 @@
 </head>
 <body>
     
-<div class="container">
+<!-- header section starts  -->
 
 <header>
 
-    <a href="#" class="logo">Smart<span>Study</span></a>
-
-    <div id="menu" class="fas fa-bars"></div>
+    <div class="user">
+        <img src="pic.jpeg" alt="">
+        <h3 class="name">Rishikesh Ombase</h3>
+        <p class="post">Data Scientist </p>
+    </div>
 
     <nav class="navbar">
-        <a href="home.html">home</a>
-        <a href="course.html">course</a>
-        <a href="teacher.html">teacher</a>
-        <a href="price.html">price</a>
-        <a href="review.html">review</a>
-        <a href="contact.html">contact</a>
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#education">Project</a></li>
+            <li><a href="#portfolio">Certificate</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
     </nav>
 
 </header>
 
-<!-- home section  -->
+<!-- header section ends -->
 
-<section class="home">
+<div id="menu" class="fas fa-bars"></div>
 
-    <div class="content">
-        <h3>E-learning is a better way of learning</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia repellat aperiam libero, beatae debitis iusto quia sit aliquid placeat facilis?</p>
-        <a href="#" class="btn">get started</a>
-    </div>
+<!-- home section starts  -->
 
-    <div class="image">
-        <img src="images/home-img.svg" alt="">
-    </div>
+<section class="home" id="home">
 
-</section>
-
-
-<!-- footer section  -->
-
-<section class="footer">
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3>about us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, maxime!</p>
-        </div>
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#">home</a>
-            <a href="#">course</a>
-            <a href="#">teacher</a>
-            <a href="#">price</a>
-            <a href="#">review</a>
-            <a href="#">contact</a>
-        </div>
-
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#">facebook</a>
-            <a href="#">twitter</a>
-            <a href="#">instagram</a>
-            <a href="#">linkedin</a>
-        </div>
-
-        <div class="box">
-            <h3>contact us</h3>
-           <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
-           <p> <i class="fas fa-envelope"></i> studysmart@gmail.com </p>
-           <p> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </p>
-        </div>
-
-    </div>
-
-    <div class="credit"> created by <span> mr. web designer </span> | all rights reserved </div>
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>Rishikesh Ombase</span></h1>
+    <p> I love to develop new machine learning models that can solve the problem in world
+    </p>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
 
 </section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> name : </span> Rishikesh Ombase </h3>
+        <h3> <span> age : </span> 24 </h3>
+        <h3> <span> qualification : </span> MSc Computer Science </h3>
+        <h3> <span> post : </span> Data Scientist </h3>
+        <h3> <span> language : </span> English,Hindi,Marathi </h3>
+        <!-- <a href=".pdf"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a> -->
+        <a href="CV.pdf"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+    </div>
+
+    <div class="counter">
+
+        <div class="box" onclick="location.href='https://github.com/Rishikesh0'">
+            <span>Github</span>
+            <!-- <h3>years of experience</h3> -->
+        </div>
+
+        <div class="box" onclick="location.href='https://www.linkedin.com/in/rishikesh-ombase-11989b1ab/'">
+            <span>Linkedin</span>
+            <!-- <h3>porject completed</h3> -->
+        </div>
+
+        <div class="box" onclick="location.href='https://www.kaggle.com/rishikeshom'">
+            <span>Kaggle</span>
+            <!-- <h3>happy clients</h3> -->
+        </div>
+
+        <div class="box" onclick="location.href='https://twitter.com/RishikeshOmbas1'">
+            <span>Twitter</span>
+            <!-- <h3>awards won</h3> -->
+        </div>
+
+    </div>
 
 </div>
 
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> My <span> Projects</span> </h1>
+
+<div class="box-container">
+
+    <div class="box" onclick="location.href='https://github.com/Rishikesh0/Face_Recognition'">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Computer Vision Project</span>
+        <h3>Face_Recognition</h3>
+        <p > In this project we recognition of a ' FACE ' for from a image to with in a video file  <ol>Attendance using drone</ol> <ol>Find Missing Persons</ol> <ol>Protect Law Enforcement</ol> <ol>Recognize VIPs at Sporting Events</ol>  </p>
+    </div>
+
+    <div class="box" onclick="location.href='https://github.com/Rishikesh0/Algo_using_Neuro_Network'">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Neuro_Network</span>
+        <h3>Neuro_Network_for Prediction_of Financial_Market</h3>
+        <p>This is a neuro network for stock preduction using LSTM model In which it scrap data from yahoo finance website for historical data and uses that data for to train model</p>
+    </div>
+
+    <div class="box" onclick="location.href=''">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Stock_Prediction</span>
+        <h3>Web_App_for Stock_Prediction Using fbprophet</h3>
+        <p>It is a web app that predicted stock performance of stock on hictorical data The data is fatched from the yahoo finance and Time series forecasting is done by fbprophet Plotly is used for ploting graphs</p>
+    </div>
+
+    <div class="box" onclick="location.href='https://github.com/Rishikesh0/cp-disney-plus-clone'">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Full-Stack</span>
+        <h3>Disney-Plus Clone</h3>
+        <p> This is the ReactJS Disney Plus Clone <ol>Firebase for backend and Authentication</ol> <ol></ol></p>
+    </div>
+
+    <!-- <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2020</span>
+        <h3>front end development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+    </div> -->
+
+    <!-- <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2021</span>
+        <h3>front end development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+    </div> -->
+
+</div>
+
+</section>
+
+<!-- education section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading"> My <span>Certificate</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="CEH.jpg" onclick="location.href='CEH.jpg'" alt="">
+    </div>
+
+    <div class="box">
+        <img src="Img_01.png" onclick="location.href='Img_01.png'" alt="">
+    </div>
+
+    <div class="box">
+        <img src="Img01.png" onclick="location.href='Img01.png'" alt="">
+    </div>
+
+    <div class="box">
+        <img src="Img02.png" onclick="location.href='Img02.png'" alt="">
+    </div>
+
+    <div class="box">
+        <img src="Img03.png" onclick="location.href='Img03.png'" alt="">
+    </div>
+
+    <!-- <div class="box">
+        <img src="images/img6.jpg" alt="">
+    </div> -->
+
+</div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">contact info</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i> rishikeshombase91297@gmail.com </h3>
+            <h3> <i class="fas fa-phone"></i> +917498077188 </h3>
+            <h3> <i class="fas fa-phone"></i> +917219628001 </h3>
+            <h3> <i class="fas fa-map-marker-alt"></i> Maharashtra, India. </h3>
+        </div>
+
+    </div>
+
+    <form action="" id="myForm">
+
+        <input name="name" id="name" type="text" placeholder="name"  class="box" value="">
+        <input type="email" placeholder="email" name="from_name" id="from_name" class="box" value="">
+        <!-- <input type="text" placeholder="project" class="box"> -->
+        <textarea name="message" id="message" cols="30" rows="10" class="box message" placeholder="message" value=""></textarea>
+        <button type="submit" class="btn" onclick="sendEmail()"> send <i class="fas fa-paper-plane"></i> </button>
+
+    </form>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
 
 
 
@@ -107,9 +252,47 @@
 
 
 
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
 
-<!-- custom js file link -->
+    <script type="text/javascript">      (function () {
+        emailjs.init("user_aOmQOpilsXLWXcL7hOdY6");
+      })();
+    </script>
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
 <script src="js/script.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
 
+<script>
+    // emailjs.sendForm("service_uay8264", "template_ip17e7s", "#myForm")
+    document
+        .getElementById("myForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const serviceID = "service_uay8264";
+          const templateID = "template_ip17e7s";
+
+          // send the email here
+          emailjs.sendForm(serviceID, templateID, this).then(
+            (response) => {
+              console.log("SUCCESS!", response.status, response.text);
+            //   alert("SUCCESS!");
+            },
+            (error) => {
+              console.log("FAILED...", error);
+              alert("FAILED...", error);
+            }
+          );
+        });
+    </script>
 </body>
 </html>

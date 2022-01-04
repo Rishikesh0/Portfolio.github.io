@@ -1,12 +1,40 @@
-let menu = document.querySelector('#menu');
-let navbar = document.querySelector('.navbar');
+$(document).ready(function(){
 
-menu.onclick = () =>{
-  menu.classList.toggle('fa-times');
-  navbar.classList.toggle('active');
-}
+    $('#menu').click(function(){
+      $(this).toggleClass('fa-times');
+      $('header').toggleClass('toggle');
+    });
+  
+    $(window).on('scroll load',function(){
+  
+      $('#menu').removeClass('fa-times');
+      $('header').removeClass('toggle');
+  
+      if($(window).scrollTop() > 0){
+        $('.top').show();
+      }else{
+        $('.top').hide();
+      }
+  
+    });
+  
+    // smooth scrolling 
+  
+    $('a[href*="#"]').on('click',function(e){
+  
+      e.preventDefault();
+  
+      $('html, body').animate({
+  
+        scrollTop : $($(this).attr('href')).offset().top,
+  
+      },
+        500, 
+        'linear'
+      );
+  
+    });
+  
+  });
 
-window.onscroll = () =>{
-  menu.classList.remove('fa-times');
-  navbar.classList.remove('active');
-}
+
